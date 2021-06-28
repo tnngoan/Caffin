@@ -3,6 +3,10 @@ body {
   font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   color: black;
 }
