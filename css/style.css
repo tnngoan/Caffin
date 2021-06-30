@@ -21,6 +21,7 @@ header {
 .logo {
   width: 71px;
   height: 71px;
+  cursor: pointer;
 }
 
 .logo img {
@@ -57,6 +58,7 @@ header {
   padding-left: 24px;
   font-weight: 700;
   letter-spacing: 0.1em;
+  cursor: pointer;
 }
 
 .left-nav nav ul li:hover {
@@ -67,7 +69,7 @@ header {
 .right-nav {
   display: flex;
   align-items: center;
-  padding-right: 10px;                                        /*right padding  */
+  padding-right: 10px; /*right padding  */
 }
 
 .find-store {
@@ -76,13 +78,14 @@ header {
   align-items: center;
   margin-right: 40px;
   font-weight: 600;
+  cursor: pointer;
 }
 .find-store i {
   padding-right: 8px;
   font-size: 24px;
 }
 .find-store:hover {
-  text-shadow: 1px 1px #B3B7EE;
+  text-shadow: 1px 1px #b3b7ee;
 }
 .sign-in,
 .join-now {
@@ -101,8 +104,8 @@ header {
 }
 
 .sign-in:hover {
-  background-color: #B3B7EE;
-  border: 1px solid #B3B7EE;
+  background-color: #b3b7ee;
+  border: 1px solid #b3b7ee;
   color: white;
 }
 
@@ -112,7 +115,7 @@ header {
 }
 
 .join-now:hover {
-  background-color: #B3B7EE;
+  background-color: #b3b7ee;
   color: #474aae;
-  border: 1px solid #B3B7EE;
+  border: 1px solid #b3b7ee;
 }

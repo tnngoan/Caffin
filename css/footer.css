@@ -1,11 +1,71 @@
 footer {
-  height: 200px;
+  height: auto;
   padding: 24px 0;
-
   box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%),
     0 0 2px rgb(0 0 0 / 7%);
 }
-
+footer p {
+  text-align: center;
+}
 .footer-container {
-  padding: 0 40px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.left-container,
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.left-container ul,
+.right-container ul {
+  padding: 0;
+  list-style-type: none;
+  font-weight: 600;
+  color: rgb(37, 37, 37);
+}
+.middle-container hr {
+  transform: rotate(90deg);
+  box-shadow: 0 20px 20px -20px #333;
+}
+
+.left-container hr,
+.right-container hr {
+  margin-top: 20px;
+  line-height: 1rem;
+  width: 260px;
+  box-shadow: 0 20px 20px -20px #333;
+}
+
+.footer-icons a {
+  cursor: pointer;
+  padding: 0px 25px;
+  font-size: 25px;
+}
+
+.author{
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.middle-container h1 {
+  letter-spacing: 10px;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.middle-container h3 {
+  font-size: 14px;
+  letter-spacing: 5px;
+  font-weight: 600;
 }
